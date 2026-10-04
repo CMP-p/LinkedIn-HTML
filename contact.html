@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Emmanuelle Allen">
     <title>Contact | Emmanuelle Allen</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body style="background-color: burlywood;">
@@ -23,6 +24,43 @@
     </header>
 
     <main>
+        <h2>Reach Out</h2>
+        <p><i>Not currently working...</i></p>
+        <form action="./README.md" method="GET">
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text"  id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Your Email</label>
+                <input type="email"  id="email" name="email"
+                placeholder="example@email.com" 
+                pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z]+"
+                required>
+            </div>
+            <div>
+                <label for="message">Personal Message</label>
+                <textarea style="width: 50vw;" id="message" name="message"
+                placeholder="Say something beautiful! But remember, to copy and actually send it to me because this form doesn't actually work" cols="40" rows="4"
+                required></textarea>
+            </div>
+            <div>
+                <label for="yes">This</label>
+                <input type="radio" name="yes" id="yes">
+            </div>
+            <div>
+                <label for="no">Does</label>
+                <input type="radio" name="yes" id="no">
+            </div>
+            <div>
+                <label for="no">Nothing</label>
+                <input type="radio" name="yes" id="no"> 
+            </div>
+            
+            <button type="submit">Submit</button>
+        </form>
+
+
         <h2>Ways to contact me</h2>
         <section>
             <h3>Links</h3>
